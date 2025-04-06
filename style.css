@@ -1,0 +1,47 @@
+body{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size:2rem;
+ height:100vh;
+ 
+}
+.textcontainer{
+  width:90vw;
+  height:30vh;
+  border-radius:0.5rem;
+  color: #DBAFA0;
+  padding: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color:#49243E;
+  border-color:#DBAFA0;
+ 
+}
+.keyboard{
+  height:60vh;
+  width:50vw;
+  background-color: #49243E;
+  border-radius: 2rem;
+  background-image:url("hello.webp") ;
+  display:flex;
+  flex-direction: column;
+ 
+  justify-content: space-evenly;
+}
+.rows{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.secondlast{
+    width:55%;
+    margin:0 auto;
+}
+.space{
+    width:50%;
+    height:3rem;
+    background:#835140
+    
+
+}
